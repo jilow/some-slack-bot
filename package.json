@@ -1,0 +1,29 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon lib/index.js",
+    "ngrok": "ngrok http 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^4.4.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "csv-write-stream": "^2.0.0",
+    "express": "^4.16.3",
+    "express-jsend": "^0.1.0",
+    "jsend": "^1.0.2",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.9.0",
+    "ngrok": "^3.0.1",
+    "nodemon": "^1.18.3",
+    "tracer": "^0.9.1",
+    "winston": "^3.0.0"
+  }
+}
